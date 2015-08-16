@@ -9,11 +9,11 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 努力学习中
+title : 风行水上自然成纹
 tagline: Site Tagline
-author :
-  name : fangler
-  email : ifangler@163.com
+author : athela
+  name : athela
+  email : tglr2014@163.com
 
 
 # The production_url is only used when full-domain names are needed
@@ -24,7 +24,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://fangler.github.io
+production_url : http://athela.github.io/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
