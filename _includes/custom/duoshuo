@@ -5,7 +5,7 @@
 <!-- duoshuo comment end -->
 <!-- duoshuo comment js , include onces-->
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"fangler"};
+var duoshuoQuery = {short_name:"athela"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
