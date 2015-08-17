@@ -20,11 +20,11 @@ tags: [qt linux]
 ###QFileDialog去掉默认的Open/Save、Cancel按钮
 有人采用创建一个QWidget来遮住Open、Cancel按钮的办法，我一直不大赞成这种刚好达到目的而没有正确保障的做法，这种做法在windows下可以，在Linux下无论如何遮不完全，有Open、Cancel的部分按钮露了出来。
 
-(help1)[*http://www.qtforum.org/article/20841/how-to-add-a-qwidget-in-qfiledialog.html#post78422*]
+(help1)[http://www.qtforum.org/article/20841/how-to-add-a-qwidget-in-qfiledialog.html#post78422]
 
-(help2)[*http://stackoverflow.com/questions/16987916/add-widgets-to-qfiledialog*]
+(help2)[http://stackoverflow.com/questions/16987916/add-widgets-to-qfiledialog]
 
-(help3)[*http://www.qtcentre.org/threads/42858-Creating-a-Custom-FileOpen-Dialog*]
+(help3)[http://www.qtcentre.org/threads/42858-Creating-a-Custom-FileOpen-Dialog]
 
 参考了上面这三个有用的链接后，才知道QFileDialog这种固件，还是可以被拆的，真是拆除了脑洞限制呀。举一反三，以后对Qt中的其它类也不会客气啦。
 
