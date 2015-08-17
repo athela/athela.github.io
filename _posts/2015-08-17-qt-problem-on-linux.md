@@ -46,11 +46,11 @@ windows和redhat5下可以显示，唯有redhat6下不显示，帮助文档上�
 ###QComboBox在Linux下显示时占满屏幕高度
 
 
-![loading...](/images/2015_08_17/qcombox1.JPG)
+![loading...](/images/qcombox1.JPG)
 
 设置 `comboBox->setStyleSheet("QComboBox {combobox-popup:0;}")` 之后恢复正常如图（windows下不用设也正常）：
 
-![loading...](/images/2015_08_17/qcombox2.JPG)
+![loading...](/images/qcombox2.JPG)
 
 
 
