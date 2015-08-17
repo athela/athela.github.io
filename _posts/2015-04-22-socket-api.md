@@ -36,9 +36,10 @@ int inet_pton(int family, const char *strptr, void *addrptr);
 const char* inet_ntop(int family, const void *addrptr, char *strptr, size_t len);
 {% endhighlight %}
 
-####3. #include <sys/socket.h>
+####3. socket connect bind listen accept
 {% highlight c %}
-int socket(int family, int type, int protocol);
+#include <sys/socket.h>
+int socket(int family, int type, int protocol)#include <sys/socket.h>;
 int connect(int sockfd, const struct sockaddr* servaddr, socklen_t addrlen);
 
 //bind可以指定IP地址或端口，或两者都指定，或两者都不指定。
@@ -55,8 +56,9 @@ int listen(int sockfd, int backlog);//还是不明白backlog指定什么值比�
 int accept(int listenfd, struct sockaddr* cliaddr, socklen_t *addrlen);
 {% endhighlight %}
 
-####4. #include <unistd.h>
+####4.close fork
 {% highlight c %}
+ #include <unistd.h>
 int close(int sockfd);
 /*
 fork调用一次，返回两次：调用进程返回子进程ID号，子进程返回0
