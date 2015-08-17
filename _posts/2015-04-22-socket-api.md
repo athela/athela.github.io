@@ -3,7 +3,7 @@ layout: post
 title: "record about Network socket API"
 description: socket, network
 category: "Network"
-tags: [github]
+tags: [socket]
 ---
 {% include JB/setup %}
 
